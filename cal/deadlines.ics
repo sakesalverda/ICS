@@ -1,11 +1,17 @@
 BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//My calendar product//example.com//
+METHOD:PUBLISH
+NAME:test subscription
+TIMEZONE-ID:Europe/Amsterdam
+URL:https://sakesalverda.github.io/ICS/cal/deadlines.ics
+X-WR-CALNAME:test subscription
+X-WR-TIMEZONE:Europe/Amsterdam
 BEGIN:VEVENT
 SUMMARY:no lecture
 DTSTART:20231115T100000Z
 DTEND:20231115T100000Z
-DTSTAMP:20231113T190809Z
+DTSTAMP:20231113T190835Z
 UID:a
 LOCATION:3mE lecture hall D
 NAME:No lecture
